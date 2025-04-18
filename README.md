@@ -1,4 +1,4 @@
-# Live Sign Language Detection and Body Segmentation using YOLOv8
+# Live Sign Language Detection and Live Segmentation using YOLOv8
 
 ## 🚀 Preview
 Here are some snapshots of the the Website:
