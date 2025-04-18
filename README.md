@@ -55,3 +55,14 @@ This project is a real-time web application that uses YOLOv8 for two powerful co
 ```bash
 git clone https://github.com/sumukhpshetty25/yolov8-sign-detection-segmentation
 cd Sign-Language-YOLOv8
+
+2. **Install Dependencies**
+Make sure you have Python 3 installed. Then run:
+```bash
+pip install -r requirements.txt
+
+1. **Place Trained Models**
+Download or move your YOLOv8 models into the correct directories:
+Sign detection model → sign_detection/best.pt(downloaded from google colab after training[train.ipny])
+                     → sign_detection/yolov8s.pt(downloaded from ultralytics)
+Segmentation model → segmentation_model/yolov8n-seg.pt(downloaded from ultralytics)
