@@ -78,14 +78,15 @@ Segmentation Model:
 
 segmentation_model/yolov8n-seg.pt
 → YOLOv8n-seg model for body segmentation (also from Ultralytics)
-##📌 Notes
+
+## 📌 Notes
 Make sure your webcam is connected and accessible by OpenCV.
 
 You can train your own YOLOv8 models using Roboflow or Google Colab and update the .pt files.
 
 For better real-time performance, use a machine with a GPU.
 
-##🛠️ Troubleshooting
+## 🛠️ Troubleshooting
 Camera not found: Ensure no other apps are using your webcam.
 
 Blank feed: Double-check model paths and make sure models are correctly placed.
