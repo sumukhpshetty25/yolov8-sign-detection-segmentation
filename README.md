@@ -35,3 +35,23 @@ This project is a real-time web application that uses YOLOv8 for two powerful co
 
 ## 📁 File Structure
 
+/ (Root Directory)
+├── app.py                      # Main Flask application
+├── templates/                  # HTML templates for frontend
+│   ├── index.html              # Landing page
+│   └── live_feed.html          # Live video stream display
+├── sign_detection/            # Directory for sign detection models
+│   ├── best.pt                 # Trained YOLOv8 model for sign gesture detection
+│   └── yolov8s.pt              # Base YOLOv8s model used for transfer learning
+├── segmentation_model/        # Directory for segmentation model
+│   └── yolov8n-seg.pt          # YOLOv8 model for full-body segmentation
+├── static/                    # Static files (CSS, JavaScript, images, etc.)
+
+
+## 🚀 Installation and Setup
+
+1. **Clone the Repository**
+
+```bash
+git clone[ [https://github.com/your-username/Sign-Language-YOLOv8.git](https://github.com/sumukhpshetty25/yolov8-sign-detection-segmentation/edit/main/READ
+cd Sign-Language-YOLOv8
