@@ -53,5 +53,5 @@ This project is a real-time web application that uses YOLOv8 for two powerful co
 1. **Clone the Repository**
 
 ```bash
-git clone[ [https://github.com/your-username/Sign-Language-YOLOv8.git](https://github.com/sumukhpshetty25/yolov8-sign-detection-segmentation/edit/main/READ
+git clone https://github.com/sumukhpshetty25/yolov8-sign-detection-segmentation
 cd Sign-Language-YOLOv8
