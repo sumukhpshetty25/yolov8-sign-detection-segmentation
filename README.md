@@ -27,11 +27,12 @@ This project is a real-time web application that uses YOLOv8 for two powerful co
 
 ## 🧠 Technologies Used
 
-- **Python 3**
+- **Python**
 - **Flask**
 - **OpenCV**
 - **YOLOv8 (Ultralytics)**
-- **HTML/CSS (Jinja templates)**
+- **HTML/CSS**
+- **Google Colab**
 
 ## 📁 File Structure
 ```
@@ -46,6 +47,7 @@ This project is a real-time web application that uses YOLOv8 for two powerful co
 ├── segmentation_model/        # Directory for segmentation model
 │   └── yolov8n-seg.pt          # YOLOv8 model for full-body segmentation
 ├── static/                    # Static files (CSS, JavaScript, images, etc.)
+├── requirements.txt            # Python dependencies
 ```
 
 ## 🚀 Installation and Setup
@@ -53,16 +55,39 @@ This project is a real-time web application that uses YOLOv8 for two powerful co
 1. **Clone the Repository**
 
 ```bash
-git clone https://github.com/sumukhpshetty25/yolov8-sign-detection-segmentation
-cd Sign-Language-YOLOv8
-
+git clone https://github.com/sumukhpshetty25/yolov8-sign-detection-segmentation.git
+cd yolov8-sign-detection-segmentation
+```
 2. **Install Dependencies**
-Make sure you have Python 3 installed. Then run:
+Make sure you have Python installed. Then run:
 ```bash
 pip install -r requirements.txt
-
+```
 1. **Place Trained Models**
-Download or move your YOLOv8 models into the correct directories:
-Sign detection model → sign_detection/best.pt(downloaded from google colab after training[train.ipny])
-                     → sign_detection/yolov8s.pt(downloaded from ultralytics)
-Segmentation model → segmentation_model/yolov8n-seg.pt(downloaded from ultralytics)
+Ensure the following YOLOv8 models are placed in the correct directories:
+
+Sign Detection Model:
+
+sign_detection/best.pt
+→ Trained model downloaded from Google Colab after training (train.ipynb)
+
+sign_detection/yolov8s.pt
+→ Pretrained YOLOv8s model downloaded from Ultralytics
+
+Segmentation Model:
+
+segmentation_model/yolov8n-seg.pt
+→ YOLOv8n-seg model for body segmentation (also from Ultralytics)
+##📌 Notes
+Make sure your webcam is connected and accessible by OpenCV.
+
+You can train your own YOLOv8 models using Roboflow or Google Colab and update the .pt files.
+
+For better real-time performance, use a machine with a GPU.
+
+##🛠️ Troubleshooting
+Camera not found: Ensure no other apps are using your webcam.
+
+Blank feed: Double-check model paths and make sure models are correctly placed.
+
+Performance lag: Consider reducing frame resolution or using a smaller model variant.
