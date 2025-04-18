@@ -5,4 +5,4 @@ Here are some snapshots of the the Website:
 ![Image](https://github.com/user-attachments/assets/c4f59e19-8d71-40a0-b763-b5c0bf92679d)
 
 ### Output
-![Image](https://github.com/user-attachments/assets/5a4502d3-c6b8-46d7-bde7-7d76182b3c8c)
+![Image](https://github.com/user-attachments/assets/5a4502d3-c6b8-46d7-bde7-7d76182b3c8c) ![Image](https://github.com/user-attachments/assets/dd5465ea-81a4-4cdd-b304-08113d539ea7)
