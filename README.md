@@ -34,7 +34,7 @@ This project is a real-time web application that uses YOLOv8 for two powerful co
 - **HTML/CSS (Jinja templates)**
 
 ## 📁 File Structure
-'''
+```
 / (Root Directory)
 ├── app.py                      # Main Flask application
 ├── templates/                  # HTML templates for frontend
@@ -46,7 +46,7 @@ This project is a real-time web application that uses YOLOv8 for two powerful co
 ├── segmentation_model/        # Directory for segmentation model
 │   └── yolov8n-seg.pt          # YOLOv8 model for full-body segmentation
 ├── static/                    # Static files (CSS, JavaScript, images, etc.)
-'''
+```
 
 ## 🚀 Installation and Setup
 
